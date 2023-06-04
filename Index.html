@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv=""X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Style.css" href="https://fonts.googleapis.com/css?family=Lexend">
-        <title>SBernotas</title>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="#About_Me">ABOUT</a></li>
-                    <li><a href="#Skills_Page">SKILLS</a></li>
-                    <li>PROJECTS</li>
-                    <li>CONTACT</li>
-                </ul>
-            </nav>
-        </header>
-        <div id="Top_Page">
-            <h1><span style="color:#D6D6D6">HELLO WORLD!</span></h1>
-            <h1>I'M SUMMER</h1>
-            <a class="resume_btn" href="S_Bernotas_Resume.pdf" download="SBernotas Resume" target="_blank">DOWNLOAD CV</a>
-        </div>
-        <div id="About_Me">
-            <h1>ABOUT ME</h1>
-            <p>My name is Summer! I am 22 years old & currenly studying for my bachelor of Science in Computer Science at Southern New Hampshire University</p>
-            <br>
-            <p>I have a passion for creating & learning. In my free-time outside of college, I take courses in physics, astrophysics, & in branches of Comp-Sci aside from SWE.
-               I have a deep love for space, science, and technology. I'm a fast learner and am very motivated to learn new things, especially when those topics can translate
-               into computer science.</p>
-            <br>
-            <p><span style="color:#F58F7C">Aside from learning, I am a gamer, a comic book collector, and an artist!</span></p>
-        </div>
-        <div id="Skills_Page">
-            <h1>SKILLS</h1>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="" X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css" href="https://fonts.googleapis.com/css?family=Lexend">
+    <title>SBernotas</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#About_Me">ABOUT</a></li>
+                <li><a href="#Skills_Page">SKILLS</a></li>
+                <li><a href="#Projects_Page">PROJECTS</a></li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </header>
+    <div id="Top_Page">
+        <h1><span style="color:#D6D6D6">HELLO WORLD!</span></h1>
+        <h1>I'M SUMMER</h1>
+        <a class="resume_btn" href="S_Bernotas_Resume.pdf" download="SBernotas Resume" target="_blank">DOWNLOAD CV</a>
+    </div>
+
+    <div id="About_Me">
+        <h1>ABOUT ME</h1>
+        <p>My name is Summer! I am 22 years old & currenly studying for my bachelor of Science in Computer Science at
+            Southern New Hampshire University</p>
+        <br>
+        <p>I have a passion for creating & learning. In my free-time outside of college, I take courses in physics,
+            astrophysics, & in branches of Comp-Sci aside from SWE.
+            I have a deep love for space, science, and technology. I'm a fast learner and am very motivated to learn new
+            things, especially when those topics can translate
+            into computer science.</p>
+        <br>
+        <p><span style="color:#F58F7C">Aside from learning, I am a gamer, a comic book collector, and an artist!</span>
+        </p>
+    </div>
+
+    <div id="Skills_Page">
+        <h1>SKILLS</h1>
+        <div id="skills_wrap_full">
             <h2>Languages</h2>
-            <div class="skill_wrap">
+            <h2 id="techH">Technologies</h2>
+            <div class="skill_wrapL">
                 <div class="skill">
                     <p>Python</p>
                     <div class="skill-bar skill1">
@@ -80,6 +90,68 @@
                     </div>
                 </div>
             </div>
+
+            <div class="skill_wrapT">
+                <div class="skill_T">
+                    <p>VS Code</p>
+                    <div class="skill-bar skill1T">
+                        <span class="skill-count1T"></span>
+                    </div>
+                </div>
+                <div class="skill_T">
+                    <p>Visual Studio</p>
+                    <div class="skill-bar skill2T">
+                        <span class="skill-count2T"></span>
+                    </div>
+                </div>
+                <div class="skill_T">
+                    <p>Git</p>
+                    <div class="skill-barT skill3T">
+                        <span class="skill-count3T"></span>
+                    </div>
+                </div>
+                <div class="skill_T">
+                    <p>SFML</p>
+                    <div class="skill-barT skill4T">
+                        <span class="skill-count4T"></span>
+                    </div>
+                </div>
+                <div class="skill_T">
+                    <p>Figma</p>
+                    <div class="skill-barT skill5T">
+                        <span class="skill-count5T"></span>
+                    </div>
+                </div>
+                <div class="skill_T">
+                    <p>Node.js</p>
+                    <div class="skill-barT skill6T">
+                        <span class="skill-count6T"></span>
+                    </div>
+                </div>
+                <div class="skill_T">
+                    <p>React.js</p>
+                    <div class="skill-barT skill7T">
+                        <span class="skill-count7T"></span>
+                    </div>
+                </div>
+            </div>
         </div>
-    </body>
+    </div>
+
+    <div id="Projects_Page">
+        <h1>PROJECTS</h1>
+        <div class = "project_card">
+            <h2>ORBIT SIMULATOR</h2>
+            <p class="description">This is a simulator that I've been building to showcase the orbit paths of the maint
+                planets in our solar system using real-world astrophysics. Although this project is
+                still in the making, it is so far my favorite personal project that I've created!
+            </p>
+            <div class="project_img">
+                <p>C++, Visual Studio, SFML Library</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
 </html>
