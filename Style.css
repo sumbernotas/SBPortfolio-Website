@@ -1,6 +1,25 @@
 @font-face {
-    font-family: Lexend;
-    src: url(Lexend-VariableFont_wght.ttf);
+    font-family: 'Lexend', sans-serif;
+    src: url(Lexend-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Lexend', sans-serif;
+    src: url(Lexend-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Lexend', sans-serif;
+    src: url(Lexend-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Lexend', sans-serif;
+    src: url(Lexend-Regular.ttf);
+    font-weight: 400;
 }
 
 * {
@@ -23,15 +42,15 @@ body {
 h1 {
     font-family: "Lexend";
     color: #F58F7C;
-    font-weight: ExtraBold;
+    font-weight: 800;
     font-size: calc(2rem + 2vw);
+    padding-bottom: 2%;
 }
 
 h2 {
     font-family: "Lexend";
     color: #D6D6D6;
     text-decoration-line: underline;
-    font-style: normal;
     font-weight: 400;
     font-size: calc(1rem + 1vw);
 }
@@ -39,7 +58,6 @@ h2 {
 p {
     font-family: "Lexend";
     color: #D6D6D6;
-    font-style: normal;
     font-weight: 400;
     font-size: calc(1em + 1vw);
 }
@@ -59,7 +77,7 @@ nav {
 
 nav ul {
     font-family: "Lexend";
-    font-weight: bold;
+    font-weight: 700;
     list-style: none;
     text-align: left;
 }
@@ -131,7 +149,8 @@ nav a:hover {
 .skill_wrapL {
     width: 30%;
     font-family: "Lexend";
-    margin-top: 3%;
+    font-weight: 300;
+    margin-top: 1.5%;
   }
   
   .skill {
@@ -210,11 +229,15 @@ nav a:hover {
     width: 75%;
   }
 
-  .skill_wrapT {
+  .skill_wrapT  {
     width: 30%;
     font-family: "Lexend";
-    margin-top: -25.8%;
+    margin-top: -25.7%;
     margin-left: 40%;
+  }
+
+  .skill_wrapT p {
+    font-weight: 300;
   }
   
   .skill_T {
@@ -286,11 +309,11 @@ nav a:hover {
   }
   
   .skill6T {
-    width: 40%;
+    width: 20%;
   }
 
   .skill7T {
-    width: 40%;
+    width: 20%;
   }
 
   #techH {
