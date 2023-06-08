@@ -163,6 +163,7 @@ nav a:hover {
     font-size: calc(0.8rem + 0.8vw);
     color: #D6D6D6;
     margin: 0;
+    font-weight: 300;
   }
   
   .skill:before {
@@ -322,39 +323,49 @@ nav a:hover {
     padding-bottom: 1%;
   }
 
-  #Projects_Page {
-    margin-top: 10%;
+#Projects_Page {
+    margin-top: 8%;
     padding-left: 5%;
 }
 
 .project_card{
   margin-top: 8%;
-  margin-left: 10%;
 }
 
 .project_card p{
     background-color: #d9d9d9;
-    width: 45%;
-    height: 40%;
+    width: 60%;
+    height: 30%;
     border-radius: 10px;
-    font-size: calc(0.8rem + 0.8vw);
+    font-size: calc(1.0rem + 1.0vw);
     padding: 1%;
     margin-top: 1%;
 }
 
-.description {
-  position: relative;
+.card_description {
+  position: absolute;
   text-align: left;
   color: #2C2B30;
+  z-index: 1;
 }
 
-.project_img p {
+.project_img {
+  z-index: -1;
   background-color: #F58F7C;
-  width: 25%;
+  width: 40%;
   height: 50%;
   border-radius: 10px;
   font-size: calc(0.8rem + 0.8vw);
-  padding: 1%;
-  margin-top: 1%;
   position: relative;
+  margin-left: 50%;
+  margin-top: -4%;
+}
+
+.card_tech h2{
+  position: relative;
+  text-decoration: none;
+  background-color: none;
+  font-weight: 200;
+  margin-left: 42%;
+  text-align: center;
 }
